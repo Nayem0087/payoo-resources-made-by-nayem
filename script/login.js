@@ -14,7 +14,8 @@ document.getElementById('login-btn')
             // 4- 1-3 true:> alert> homepage
             alert('login success');
             // window.location.replace('/home.html');
-            window.location.assign('/home.html');
+            // window.location.assign('/home.html');
+            window.location.href = "home.html";
         } else{
             // 4- 1-3 false:> alert> return
             alert('login failed');
